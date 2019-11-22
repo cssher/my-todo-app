@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alatsi&display=swap");
+.ToDoItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ToDoItem-Text {
+  font-family: "Alatsi", sans-serif;
+  width: 90%;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px lightgrey;
+  padding: 12px;
+  margin-right: 10px;
+}
+
+.ToDoItem-Delete {
+  font-family: "Odibee Sans", cursive;
+  width: 180px;
+  height: 35px;
+  cursor: pointer;
+  background: #ff4b4b;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #c70202;
+  color: white;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.ToDoItem-Delete:hover {
+  box-shadow: none;
+  margin-top: 1px;
+  margin-left: 1px;
+}

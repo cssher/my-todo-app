@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Tomorrow&display=swap");
+
+.ToDo {
+  text-align: center;
+  border: 1px solid white;
+  width: 80vw;
+  height: auto;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+    to bottom,
+    #6d2ffb,
+    #554efa,
+    #4361f5,
+    #3e71ed,
+    #487de1,
+    #378de5,
+    #349ce6,
+    #42a9e4,
+    #26bfef,
+    #19d4f4,
+    #37e8f5,
+    #5ffbf1
+  );
+  padding-bottom: 60px;
+  margin: 40px auto;
+  border-radius: 25px;
+}
+
+.ToDo-Header {
+  color: rgb(194, 248, 0);
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 50px auto 30px;
+}
+
+.ToDo-Add {
+  color: white;
+  font-family: "Odibee Sans", cursive;
+  font-size: 1.5em;
+  width: 200px;
+  height: 40px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #06fa06c9;
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px #cde405;
+  margin: 20px auto 0;
+}
+
+.ToDo-Add:hover {
+  box-shadow: none;
+  margin-left: calc(auto + 1px);
+}
+
+.ToDo-Container {
+  width: 80%;
+  margin: 0 auto;
+}
